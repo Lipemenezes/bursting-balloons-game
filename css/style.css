@@ -10,13 +10,13 @@
 #timer-table {
 	width: 140px;
 	height: 132px;
-	background: url(images/timer.png);
+	background: url(../images/timer.png);
 }
 
 #scenario {
 	height: 550px;
 	width: 600px;
-	background: url(images/scenario.png) no-repeat;
+	background: url(../images/scenario.png) no-repeat;
 	display: -webkit-box;
 }
 
