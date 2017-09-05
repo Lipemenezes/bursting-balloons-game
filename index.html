@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+	</head>
+	<script type="text/javascript">
+		function startGame() {
+			var game_difficulty = document.getElementById('select_difficulty').value;
+
+			window.location.href = 'game.html?difficulty=' + game_difficulty;
+			alert(game_difficulty);
+		}
+	</script>
+	<body>
+
+		<div>
+			<p>
+				<b>Select the difficulty: </b>
+				<select id="select_difficulty">
+					<option value="Easy">Easy</option>
+					<option value="Medium">Medium</option>
+					<option value="Hard">Hard</option>
+				</select>
+			</p>
+		<br />
+		<img src="images/start.png" onclick="startGame()">
+
+	</body>
+	
+</html>
